@@ -1,2 +1,4 @@
 node_modules
 notes-sg-api-webserver.pem
+.idea
+.DS_Store
