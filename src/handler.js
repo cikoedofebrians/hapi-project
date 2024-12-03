@@ -45,6 +45,7 @@ const addNoteHandler = (request, h) => {
 
 const getAllNotesHandler = (request, h) => {
   return h.response({
+    status: 'success',
     data: { notes, },
   }).code(200);
 };
